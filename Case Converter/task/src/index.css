@@ -1,0 +1,68 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-align: center;
+    color: azure;
+
+}
+
+textarea {
+    width: 80vw;
+    height: 20vh;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    resize: none;
+    color: #111111;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 2rem;
+}
+
+button {
+    font-size: 1.25rem;
+    border: 0;
+    width: 250px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0.2rem;
+    background-color: azure;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    color: #111111;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#save-text-file {
+    width: 60vw;
+    margin: 0.5rem;
+}
+
+textarea:focus,
+button:focus {
+    outline: none;
+}
